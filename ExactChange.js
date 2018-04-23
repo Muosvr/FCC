@@ -63,6 +63,7 @@ function checkCashRegister(price, cash, cid) {
       changeTest.push(change);
     }
     
+    // check for insufficeint Funds again
     if(i == 0 && change !=0){
       return "Insufficient Funds";
     }
