@@ -1,3 +1,4 @@
+// Make a Person 
 // Fill in the object constructor with the following methods below:
 
 // getFirstName()
@@ -60,4 +61,3 @@ var Person = function(firstAndLast) {
 var bob = new Person('Bob Ross');
 bob.getFullName();
 Object.keys(bob);
-
